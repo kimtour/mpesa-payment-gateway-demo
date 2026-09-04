@@ -2,6 +2,6 @@ services:
   - type: web
     name: mpesa-payment-gateway-demo
     runtime: static
-    buildCommand: npm ci && npm run build
+    buildCommand: echo "Using committed frontend build"
     staticPublishPath: ./dist
     pullRequestPreviewsEnabled: true
